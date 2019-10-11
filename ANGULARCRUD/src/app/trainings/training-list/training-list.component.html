@@ -1,0 +1,15 @@
+<table class="table table-sm table-hover">
+  <tr *ngFor="let training of _postsArray">
+    <td>{{training.TrainingName}}</td>
+    <td>{{training.StartDate}}</td>
+    <td>{{training.LastDate}}</td>
+    <!-- <td>
+      <a class="btn" (click)="showForEdit(training)">
+        <i class="fa fa-pencil-square-o"></i>
+      </a>
+      <a class="btn text-danger" (click)="onDelete(training.Id)">
+        <i class="fa fa-trash-o"></i>
+      </a>
+    </td> -->
+  </tr>
+</table>
